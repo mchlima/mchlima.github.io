@@ -1,0 +1,62 @@
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.profile {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.presentation, .details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.presentation h1 {
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--color-text);
+}
+
+.presentation-name {
+  color: var(--color-primary);
+}
+
+.presentation-role {
+  color: var(--color-primary);
+}
+
+.social ul {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.social ul li i {
+  font-size: 1.5rem;
+  color: var(--color-text);  
+}
+
+.social ul li:hover i {
+  color: var(--color-primary);  
+}
+
+.profile div {
+  max-width: 500px;
+}
+
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 8px solid var(--color-primary);
+}
+
+.stack div {
+  display: inline-flex;
+  gap: 10px;
+  max-width: 128px;
+}
