@@ -9,18 +9,16 @@ body {
 
 .container-fluid > main {
   margin: 0 auto;
-  margin-top: 2rem;
   padding: 0 1rem;
   width: fit-content;
   display: flex;
   flex-direction: column;
 }
 
-.profile {
+.profile, .aboutme {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   gap: 4rem;
   height: 100vh;
 }
@@ -56,17 +54,28 @@ body {
 .presentation-role {
   color: var(--color-primary);
 }
+
 .social {
   display: flex;
-  justify-content: center;
-}
-
-.social > ul {
-  display: flex;
-  gap: 1rem;
   flex-direction: row;
+  justify-content: space-around;
+  font-size: 3rem;
 }
 
-.social > ul > li > a > i {
-  font-size: 2rem;
+.aboutme {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutme > h2 {
+  color: var(--color-primary);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.details-stack > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
