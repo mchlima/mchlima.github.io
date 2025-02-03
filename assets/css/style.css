@@ -19,7 +19,20 @@ body {
 .profile {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   gap: 4rem;
+  height: 100vh;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar > img{
+  border-radius: 50%;
+  border: 8px solid var(--color-primary);
 }
 
 .presentation {
@@ -43,12 +56,17 @@ body {
 .presentation-role {
   color: var(--color-primary);
 }
-
-.avatar {
+.social {
   display: flex;
   justify-content: center;
 }
 
-.avatar > img{
-  border-radius: 10px;
+.social > ul {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+
+.social > ul > li > a > i {
+  font-size: 2rem;
 }
