@@ -20,12 +20,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 4rem;
+  justify-content: space-evenly;
   height: 100vh;
 }
 
 .aboutme {
   height: fit-content;
+  padding-top: 3rem;
+  gap: 3rem;
 }
 
 .avatar {
@@ -34,7 +36,7 @@ body {
 }
 
 .avatar > img{
-  max-width: 360px;
+  max-width: 260px;
   border-radius: 50%;
   border: 8px solid var(--color-primary);
 }
