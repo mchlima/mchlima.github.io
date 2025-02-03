@@ -69,6 +69,20 @@ body {
   justify-content: space-around;
 }
 
+.next {
+  display: flex;
+  justify-content: center;
+}
+
+.next > a {
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
 .aboutme {
   display: flex;
   flex-direction: column;
