@@ -11,6 +11,7 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
   width: fit-content;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
 }
@@ -57,9 +58,15 @@ body {
 
 .social {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 3rem;
+}
+
+.social > div {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: space-around;
 }
 
 .aboutme {
@@ -70,6 +77,12 @@ body {
 .aboutme > h2 {
   color: var(--color-primary);
   text-align: center;
+  text-transform: uppercase;
+}
+
+.aboutme > div > h3 {
+  text-align: center;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
