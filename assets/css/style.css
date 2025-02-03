@@ -24,12 +24,17 @@ body {
   height: 100vh;
 }
 
+.aboutme {
+  height: fit-content;
+}
+
 .avatar {
   display: flex;
   justify-content: center;
 }
 
 .avatar > img{
+  max-width: 360px;
   border-radius: 50%;
   border: 8px solid var(--color-primary);
 }
